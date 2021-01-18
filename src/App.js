@@ -22,7 +22,7 @@ function App() {
       <form className='lorem-form' onSubmit={handleSubmit}>
         <label htmlFor='amount'>paragraphs:</label>
         <input
-          type='amount'
+          type='number'
           name='amount'
           id='amount'
           value={count}
