@@ -11,14 +11,14 @@ function App() {
     if(count <= 0) {
       amount = 1
     }
-    if (count > 0) {
+    if (count > 8) {
       amount = 8
     }
     setText(data.slice(0,amount))
   }
   return (
     <section className='section-center'>
-      <h3>Tired of boring lorem ipsum?</h3>
+      <h3>Are you tired of boring lorem ipsum?</h3>
       <form className='lorem-form' onSubmit={handleSubmit}>
         <label htmlFor='amount'>paragraphs:</label>
         <input
